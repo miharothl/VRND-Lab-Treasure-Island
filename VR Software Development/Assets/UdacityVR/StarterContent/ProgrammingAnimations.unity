@@ -281,27 +281,27 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 430328, guid: b682935853d1a42cc96929f9ef25687c, type: 2}
       propertyPath: m_LocalRotation.x
-      value: 0.40821788
+      value: 0.21172354
       objectReference: {fileID: 0}
     - target: {fileID: 430328, guid: b682935853d1a42cc96929f9ef25687c, type: 2}
       propertyPath: m_LocalRotation.y
-      value: -0.23456968
+      value: -0.25252497
       objectReference: {fileID: 0}
     - target: {fileID: 430328, guid: b682935853d1a42cc96929f9ef25687c, type: 2}
       propertyPath: m_LocalRotation.z
-      value: 0.10938163
+      value: 0.056731146
       objectReference: {fileID: 0}
     - target: {fileID: 430328, guid: b682935853d1a42cc96929f9ef25687c, type: 2}
       propertyPath: m_LocalRotation.w
-      value: 0.8754261
+      value: 0.94243616
       objectReference: {fileID: 0}
     - target: {fileID: 430328, guid: b682935853d1a42cc96929f9ef25687c, type: 2}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 50
+      value: 25.323002
       objectReference: {fileID: 0}
     - target: {fileID: 430328, guid: b682935853d1a42cc96929f9ef25687c, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -30
+      value: -30.000002
       objectReference: {fileID: 0}
     - target: {fileID: 10810450, guid: b682935853d1a42cc96929f9ef25687c, type: 2}
       propertyPath: m_Lightmapping
@@ -606,6 +606,10 @@ Prefab:
     - target: {fileID: 158520, guid: b682935853d1a42cc96929f9ef25687c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 430328, guid: b682935853d1a42cc96929f9ef25687c, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b682935853d1a42cc96929f9ef25687c, type: 2}
@@ -1444,7 +1448,7 @@ Transform:
 GameObject:
   m_PrefabParentObject: {fileID: 128820, guid: b682935853d1a42cc96929f9ef25687c, type: 2}
   m_PrefabInternal: {fileID: 455908278}
---- !u!114 &1866332998
+--- !u!114 &1866332999
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -1452,7 +1456,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1866332996}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ffadc7c352484ad78ebf0930a355180, type: 3}
+  m_Script: {fileID: 11500000, guid: ddf758d96c171407e8532879e54f2be5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   directionalLight: {fileID: 1866332996}
