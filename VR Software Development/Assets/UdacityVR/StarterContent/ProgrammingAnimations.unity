@@ -1448,6 +1448,23 @@ Transform:
 GameObject:
   m_PrefabParentObject: {fileID: 128820, guid: b682935853d1a42cc96929f9ef25687c, type: 2}
   m_PrefabInternal: {fileID: 455908278}
+--- !u!95 &1866332998
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1866332996}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c6b78f109b7ed3544baa130646cba1e9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &1866332999
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1460,6 +1477,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   directionalLight: {fileID: 1866332996}
+  sunRotationAnimation: {fileID: 1866332998}
 --- !u!1001 &1932902419
 Prefab:
   m_ObjectHideFlags: 0

@@ -23,5 +23,26 @@
        Quaternion startRotation = Quaternion.Euler (50f, 30f, 0f);
        Quaternion endRotation = startRotation * Quaternion.Euler(0f, 180f, 0f);
        directionalLight.transform.rotation = Quaternion.Slerp (startRotation, endRotation, Time.time / 10f);
-     }'
+     }`
 
+# Scripting with Unity's Animator
+
+* RotateLight: update script
+  * `public Animator sunRotationAnimation;
+     float startTime = 0f;
+     bool isPressed = false; // Has the trigger button been pressed at least once?`
+  * `start () {
+       sunRotationAnimation.StartPlayback ();
+     }`
+  * `void Update () {
+  
+    if (Input.GetMouseButtonDown (0) && !isPressed) {
+      // ...then update 'isPressed' to 'true'.
+      isPressed = true;
+    }
+  
+    if (isPressed) {
+      // ...then rotate.
+      sunRotationAnimation.StopPlayback ();
+      sunRotationAnimation.SetBool ("ChangeColor", true);
+    }`
