@@ -1,8 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class Vacation : MonoBehaviour {
+public class ChangeScene : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
@@ -14,7 +15,8 @@ public class Vacation : MonoBehaviour {
 		
 	}
 
-	public void GoToVacation() {
-		Debug.Log ("GoToVacation is clicked");
+	public void GoToScene(string sceneName) {
+		Debug.Log ("GoToScene was called");
+		SceneManager.LoadScene (sceneName);
 	}
 }
